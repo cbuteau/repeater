@@ -1,4 +1,4 @@
 export const DEFAULT_OPTIONS = {
   forgetTry: false,
-  notContinue: false
+  continueRun: false
 };

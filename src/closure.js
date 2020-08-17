@@ -10,16 +10,16 @@ export function createClosure(repeaterPtr, callback, options) {
       } catch (e) {
         console.log(options.name);
         console.error(e);
-        continueRun = true;
-        if (options.notContinue) {
-          continueRun = false;
+        continueRun = false;
+        if (options.continueRun) {
+          continueRun = true;
         }
       }
     }
     if (continueRun) {
       repeaterPtr.start();
     } else {
-      repeaterPtr._isRunning = false;
+      repeaterPtr.pause();
     }
   };
 }

@@ -4,7 +4,7 @@ import {DEFAULT_OPTIONS} from "./opts.js";
 export default class Repeater {
   constructor(callback, options) {
     var tempOpts = options ? options : {};
-    this.options = Object.assign(tempOpts, DEFAULT_OPTIONS);
+    this.options = Object.assign(DEFAULT_OPTIONS, tempOpts);
     this.callback = createClosure(this, callback, this.options);
     this.start();
   }

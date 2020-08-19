@@ -7,6 +7,7 @@ describe('Options', function() {
       count++;
       throw new Error('forgetTry may be more performant but less stable');
     }).toThrowError(), {
+      name: 'forgetTrytester',
       forgetTry: true
     });
 
@@ -23,6 +24,7 @@ describe('Options', function() {
       count++;
       throw new Error('continueRun means if an exception occurs we keep triggerings the RAF.');
     }, {
+      name: 'continueRuntester',
       continueRun: true
     });
 

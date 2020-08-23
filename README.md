@@ -6,6 +6,8 @@ An ES6 version of rafrepeat.
 A mini library it just does one task very well.
 Copy the code or reuse.
 
+NOTE: If anyone knows how to get code coverage of STRAIGHT ES6 code please reach out to me.
+
 ## Badges
 
 <!-- ### Coveralls
@@ -14,13 +16,20 @@ Copy the code or reuse.
 
 ### Circle CI Build
 
-[![CircleCI](https://circleci.com/gh/cbuteau/typetools.svg?style=svg)](https://circleci.com/gh/cbuteau/typetools)
+[![CircleCI](https://circleci.com/gh/cbuteau/repeater.svg?style=svg)](https://circleci.com/gh/cbuteau/repeater)
 
 ### npm Version
 
-[![npm version](http://img.shields.io/npm/v/typetools.svg?style=flat)](https://npmjs.org/package/typetools "View this project on npm")
+[![npm version](http://img.shields.io/npm/v/rafrepeater.svg?style=flat)](https://npmjs.org/package/repeater "View this project on npm")
 
 
 ### npm big badge
 
-[![NPM](https://nodei.co/npm/typetools.png)](https://nodei.co/npm/typetools/)
+[![NPM](https://nodei.co/npm/repeater.png)](https://nodei.co/npm/rafrepeater/)
+
+
+## Status
+
+### 08/23/2020
+
+Mayb this for covergea...

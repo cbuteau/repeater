@@ -1,5 +1,5 @@
 {
-  "name": "repeater",
+  "name": "rafrepeater",
   "version": "1.0.0",
   "description": "An ES6 wrapper of the RAF mechanism",
   "main": "src/repeater.js",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@open-wc/karma-esm": "3.0.3",
+    "istanbul": "1.1.0-alpha.1",
     "karma-chrome-launcher": "3.1.0"
   },
   "scripts": {

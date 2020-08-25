@@ -33,3 +33,9 @@ NOTE: If anyone knows how to get code coverage of STRAIGHT ES6 code please reach
 ### 08/23/2020
 
 Mayb this for covergea...
+
+
+### 08/25/2020
+
+Got terser working...
+need an options file or config.

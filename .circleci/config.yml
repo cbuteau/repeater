@@ -11,6 +11,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Starting Xvfb (for Browser Tests)
+          command: Xvfb :99 -screen 0 1280x1024x24 &
+      - run:
           name: setup-for-karma
           command: npm set prefix=/home/circleci/npm && echo 'export PATH=$HOME/circleci/npm/bin:$PATH' >> /home/circleci/.bashrc
       - run:

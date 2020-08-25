@@ -7,7 +7,7 @@ module.exports = function(config) {
     browserNoActivityTimeout: 400000,
     browserDisconnectTimeout: 10000,
     captureTimeout: 210000,
-    browserDisconnectTolerance: 3,
+    browserDisconnectTolerance: 5,
     processKillTimeout: 100000,
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
